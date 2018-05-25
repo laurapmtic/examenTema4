@@ -1,11 +1,12 @@
 package examenTema4;
 
+import java.util.Date;
+
 public class ExamenAldo {
 
 	private int aldo;
-	private String descripcion;
-	
-	
+	private Date fechaExamen;
+	private Date fechaExamen;	
 	//getters and setter
 
 	public int getAldo() {
@@ -16,6 +17,10 @@ public class ExamenAldo {
 		return descripcion;
 	}
 
+	public Date getFechaExamen() {
+		return fechaExamen;
+	}
+
 	public void setAldo(int aldo) {
 		this.aldo = aldo;
 	}
@@ -23,6 +28,12 @@ public class ExamenAldo {
 	public void setDescripcion(String descripcion)
 	{
 		this.descripcion = descripcion;
+	}
+
+	public void setFechaExamen(Date fechaExamen)
+	{
+		this.fechaExamen = fechaExamen;
+
 	}
 	
 }
