@@ -1,12 +1,14 @@
 package examenTema4;
 
-
-
-public class ExamenAbidin 
-{
-	private int nombre;
+public class Examen_SaimoukeAli {
 	
+	//Atributo
+	int nombre;
 
+	
+	
+	
+	//Getters y Setters
 	public int getNombre() {
 		return nombre;
 	}
@@ -14,6 +16,7 @@ public class ExamenAbidin
 	public void setNombre(int nombre) {
 		this.nombre = nombre;
 	}
-
+	
+	
 
 }
