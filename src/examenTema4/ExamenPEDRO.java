@@ -3,6 +3,7 @@ package examenTema4;
 public class ExamenPEDRO {
 	
 	private int nombre;
+	private Date fechaExamen;
 	
 	public int getNombre () {
 		
@@ -14,6 +15,14 @@ public class ExamenPEDRO {
 		
 		this.nombre=nombre;
 		
+	}
+	
+	public Date getFechaexm() {
+		return this.fechaExamen;
+	}
+	
+	public void setFechaexm(Date fecha) {
+		this.fechaExamen = fecha;
 	}
 	
 }
