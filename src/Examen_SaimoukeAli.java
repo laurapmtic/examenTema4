@@ -4,7 +4,13 @@ public class Examen_SaimoukeAli {
 	//Atributo
 	int nombre;
 	Date fechaExamen;
+	String descripcion;
 
+	
+	//Constructor
+	public Examen_SaimoukeAli()
+	
+	
 	
 	
 	
