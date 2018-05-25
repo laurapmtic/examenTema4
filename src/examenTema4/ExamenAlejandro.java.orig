@@ -1,3 +1,4 @@
+
 package examenTema4;
 
 /**
@@ -14,28 +15,32 @@ public class ExamenAlejandro
 	{
 		return nombre;
 	}
+	
 	public String getDescripcion()
 	{
 		return descripcion;
 	}
-
+	
 	public Date getFechaExamen()
 	{
 		return fechaExamen;
 	}
+
 	//setter
 	public void setNombre(int nom)
 	{
 		nombre = nom;
 	}
+
+	public void setFechaExamen(Date fecha)
+	{
+		fechaExamen = fecha;
+	}
+	
 	public void setDescripcion(String descrp)
 	{
 		descripcion = descrp;
 	}
 	
-	public void setFechaExamen(Date fecha)
-	{
-		fechaExamen = fecha;
-	}
 	
 }
