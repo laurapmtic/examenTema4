@@ -24,6 +24,7 @@ public class ExamenAldo {
 	public void setFechaExamen(Date fechaExamen)
 	{
 		this.fechaExamen = fechaExamen;
+
 	}
 	
 }
