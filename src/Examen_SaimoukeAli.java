@@ -2,9 +2,8 @@
 public class Examen_SaimoukeAli {
 	
 	//Atributo
-	private int nombre;
-	private Date fechaExamen;
-	private String descripcion;
+	int nombre;
+	Date fechaExamen;
 
 	
 	
@@ -21,16 +20,14 @@ public class Examen_SaimoukeAli {
 	{
 		return descripcion;
 	}
-	
+		
 	
 
-	
-	//Setters
 	public void setNombre(int nombre) {
 		this.nombre = nombre;
 	}
 	
-	public void setfechaExamen(Date fechaExamen) {
+	public void setfechaExamen() {
 		this.fechaExamen = fechaExamen;
 	}
 	
@@ -38,7 +35,6 @@ public class Examen_SaimoukeAli {
 	{
 		this.descripcion = descripcion;
 	}
-	
-	
+		
 
 }
