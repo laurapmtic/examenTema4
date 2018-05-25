@@ -5,8 +5,8 @@ import java.util.Date;
 public class ExamenAldo {
 
 	private int aldo;
-	private Date fechaExamen;
-	private Date fechaExamen;	
+	private Date fechaExamen1;
+	private String descripcion;	
 	//getters and setter
 
 	public int getAldo() {
@@ -18,7 +18,7 @@ public class ExamenAldo {
 	}
 
 	public Date getFechaExamen() {
-		return fechaExamen;
+		return fechaExamen1;
 	}
 
 	public void setAldo(int aldo) {
@@ -32,7 +32,7 @@ public class ExamenAldo {
 
 	public void setFechaExamen(Date fechaExamen)
 	{
-		this.fechaExamen = fechaExamen;
+		this.fechaExamen1 = fechaExamen;
 
 	}
 	
