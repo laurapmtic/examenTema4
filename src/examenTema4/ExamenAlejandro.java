@@ -9,6 +9,14 @@ public class ExamenAlejandro
 	int nombre;
 	String descripcion;
 	Date fechaExamen;
+	
+	//Constructor
+	
+	public ExamenAlejandro()
+	{
+		
+	}
+	
 	//getter
 	public int getNombre()
 	{
