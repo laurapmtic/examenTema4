@@ -1,8 +1,11 @@
 package examenTema4;
 
+import java.util.Date;
+
 public class ExamenPATRICIA
 {
 	private int nombre;
+	private Date fechaExamen;
 
 	public int getNombre()
 	{
@@ -13,6 +16,17 @@ public class ExamenPATRICIA
 	{
 		this.nombre = nombre;
 	}
+
+	public Date getFechaExamen()
+	{
+		return fechaExamen;
+	}
+
+	public void setFechaExamen(Date fechaExamen)
+	{
+		this.fechaExamen = fechaExamen;
+	}
+	
 	
 	
 }
