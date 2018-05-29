@@ -9,6 +9,15 @@ public class ExamenAlan
 	private int nombre;
 	private String descripcion;
 	private Date fechaExamen;
+	
+	// Constructor 
+	
+	public ExamenAlan(int n, String desc, Date fech)
+	{
+		n = nombre;
+		desc = descripcion;
+		fech = fechaExamen;
+	}
 
 	// Getters & Setters
 	
