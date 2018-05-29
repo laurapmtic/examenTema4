@@ -6,6 +6,7 @@ public class ExamenRecupPEDRO {
 	
 	private Date fechaExamen;
 	private String descripcion;
+	private String prueba;
 	
 	public Date getFechaexm() {
 		return this.fechaExamen;
